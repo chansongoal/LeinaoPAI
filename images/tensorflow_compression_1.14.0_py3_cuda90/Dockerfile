@@ -75,7 +75,8 @@ RUN sed -i 's/archive.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list &&
     $PIP_INSTALL \
         setuptools \
         && \
-    $PIP_INSTALL \        numpy \        h5py \        scipy \        pandas \        scikit-learn \        scikit-image \        scikit-video \        matplotlib \        Cython \        visdom \        dominate \        protobuf \        lmdb \        wheel \        nose \        leveldb \        Pillow \        six \        decorator==4.3.0 \        opencv-python \        sklearn \        imageio \        packaging \        tqdm \        dlib \        opencv-python \        keras \        dominate \        requests \        cffi \        pytz \        colorama \        setproctitle \        urllib3 \        numba==0.41.0 \        seaborn==0.9.0 \        hypertools==0.5.1 \        fasteners \        fjcommon==0.1.69 \      && \
+    $PIP_INSTALL \
+        numpy \        h5py \        scipy \        pandas \        scikit-learn \        scikit-image \        scikit-video \        matplotlib \        Cython \        visdom \        dominate \        protobuf \        lmdb \        wheel \        nose \        leveldb \        Pillow \        six \        decorator==4.3.0 \        opencv-python \        sklearn \        imageio \        packaging \        tqdm \        dlib \        opencv-python \        keras \        dominate \        requests \        cffi \        pytz \        colorama \        setproctitle \        urllib3 \        numba==0.41.0 \        seaborn==0.9.0 \        hypertools==0.5.1 \        fasteners \        fjcommon==0.1.69 \      && \
 # ==================================================================
 # tensorflow 1.14.0
 # tensor2tensor 1.10.0
