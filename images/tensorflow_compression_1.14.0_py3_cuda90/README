@@ -1,0 +1,6 @@
+based on https://github.com/Leinao/LeinaoPAI/tree/master/images/lcb-cu90-py36-tf19-t2t110-torch041
+
+changes:
+removed pytorch and tensor_to_tensor
+added tensorflow-compression
+upgrade tensorflow1.4 to 1.14.0
